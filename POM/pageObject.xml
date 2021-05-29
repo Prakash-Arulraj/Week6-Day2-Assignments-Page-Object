@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="serviceNow">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="week6.day2.Tests.ResolveIncidentTest"/>
+      <class name="week6.day2.Tests.UpdateIncidentTest"/>
+      <class name="week6.day2.Tests.DeleteIncidentTest"/>
+      <class name="week6.day2.Tests.CreateIncidentTest"/>
+      <class name="week6.day2.Tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- serviceNow -->
